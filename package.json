@@ -1,0 +1,15 @@
+{
+  "name": "meadowlark",
+  "version": "0.0.1",
+  "description": "Projeto de Teste do NodeJS+Express",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Everton Mendonca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.2",
+    "express3-handlebars": "^0.5.2"
+  }
+}

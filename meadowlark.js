@@ -30,13 +30,21 @@ app.get('/about', function(req, res){
         pageTestScript: '/qa/tests-about.js'
     });
 });
-app.use(express.static(__dirname + '/public'));
+
+app.get('/tours/hood-river', function(req, res){
+   res.render('tours/hood-river');
+});
+
+app.get('/tours/request-group-rate', function(req, res){
+   res.render('tours/request-group-rate');
+});
+
 //custom 404 page
 app.use(function(req, res){
     res.status(404);
     res.render('404');
 });
-app.use(express.static(__dirname + '/public'));
+
 //custom 500 page
 app.use(function(err, req, res, next) {
     console.error(err.stack);

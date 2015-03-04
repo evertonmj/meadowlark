@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'body-parser' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json meadowlark@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'body-parser', null ]
+7 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'body-parser',
+8 verbose parsed url   path: 'body-parser',
+8 verbose parsed url   href: 'body-parser' }
+9 silly lockFile 14cf125c-body-parser body-parser
+10 verbose lock body-parser /Users/everton/.npm/14cf125c-body-parser.lock
+11 silly lockFile 14cf125c-body-parser body-parser
+12 silly lockFile 14cf125c-body-parser body-parser
+13 verbose addNamed [ 'body-parser', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 9f665704-body-parser body-parser@
+16 verbose lock body-parser@ /Users/everton/.npm/9f665704-body-parser.lock
+17 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+18 verbose request where is /body-parser
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 5fe9516786e3de39
+21 verbose url raw /body-parser
+22 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+23 verbose url resolved https://registry.npmjs.org/body-parser
+24 verbose request where is https://registry.npmjs.org/body-parser
+25 info trying registry request attempt 1 at 18:55:23
+26 verbose etag "3HS7E1CIWPCUGCS7FBY4EXW81"
+27 http GET https://registry.npmjs.org/body-parser
+28 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+29 info trying registry request attempt 2 at 18:55:43
+30 verbose etag "3HS7E1CIWPCUGCS7FBY4EXW81"
+31 http GET https://registry.npmjs.org/body-parser
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+33 info trying registry request attempt 3 at 18:56:43
+34 verbose etag "3HS7E1CIWPCUGCS7FBY4EXW81"
+35 http GET https://registry.npmjs.org/body-parser
+36 silly registry.get cb [ 304, undefined ]
+37 verbose etag https://registry.npmjs.org/body-parser from cache
+38 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+39 silly addNameRange versions [ 'body-parser',
+39 silly addNameRange   [ '1.0.0',
+39 silly addNameRange     '1.0.1',
+39 silly addNameRange     '1.0.2',
+39 silly addNameRange     '1.1.0',
+39 silly addNameRange     '1.1.1',
+39 silly addNameRange     '1.1.2',
+39 silly addNameRange     '1.2.0',
+39 silly addNameRange     '1.2.1',
+39 silly addNameRange     '1.2.2',
+39 silly addNameRange     '1.3.0',
+39 silly addNameRange     '1.3.1',
+39 silly addNameRange     '1.4.0',
+39 silly addNameRange     '1.4.1',
+39 silly addNameRange     '1.4.2',
+39 silly addNameRange     '1.4.3',
+39 silly addNameRange     '1.5.0',
+39 silly addNameRange     '1.5.1',
+39 silly addNameRange     '1.5.2',
+39 silly addNameRange     '1.6.0',
+39 silly addNameRange     '1.6.1',
+39 silly addNameRange     '1.6.2',
+39 silly addNameRange     '1.6.3',
+39 silly addNameRange     '1.6.4',
+39 silly addNameRange     '1.6.5',
+39 silly addNameRange     '1.6.6',
+39 silly addNameRange     '1.6.7',
+39 silly addNameRange     '1.7.0',
+39 silly addNameRange     '1.8.0',
+39 silly addNameRange     '1.8.1',
+39 silly addNameRange     '1.8.2',
+39 silly addNameRange     '1.8.3',
+39 silly addNameRange     '1.8.4',
+39 silly addNameRange     '1.9.0',
+39 silly addNameRange     '1.9.1',
+39 silly addNameRange     '1.9.2',
+39 silly addNameRange     '1.9.3',
+39 silly addNameRange     '1.10.0',
+39 silly addNameRange     '1.10.1',
+39 silly addNameRange     '1.10.2',
+39 silly addNameRange     '1.11.0' ] ]
+40 verbose addNamed [ 'body-parser', '1.11.0' ]
+41 verbose addNamed [ '1.11.0', '1.11.0' ]
+42 silly lockFile dd49358a-body-parser-1-11-0 body-parser@1.11.0
+43 verbose lock body-parser@1.11.0 /Users/everton/.npm/dd49358a-body-parser-1-11-0.lock
+44 silly lockFile 3af3c56e-dy-parser-body-parser-1-11-0-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+45 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz /Users/everton/.npm/3af3c56e-dy-parser-body-parser-1-11-0-tgz.lock
+46 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz',
+46 verbose addRemoteTarball   '29f876cb608efa54e9b2185fe8105efc9219a7f3' ]
+47 info retry fetch attempt 1 at 18:56:54
+48 verbose fetch to= /var/folders/pc/_9w186r54cs7wqpg9myhf5040000gn/T/npm-1943-wQzMUs-_/registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+49 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+50 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+51 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+52 info retry fetch attempt 2 at 18:57:04
+53 verbose fetch to= /var/folders/pc/_9w186r54cs7wqpg9myhf5040000gn/T/npm-1943-wQzMUs-_/registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+54 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+55 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+56 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+57 info retry fetch attempt 3 at 18:58:04
+58 verbose fetch to= /var/folders/pc/_9w186r54cs7wqpg9myhf5040000gn/T/npm-1943-wQzMUs-_/registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+59 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+60 error fetch failed https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+61 silly lockFile 3af3c56e-dy-parser-body-parser-1-11-0-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+62 silly lockFile 3af3c56e-dy-parser-body-parser-1-11-0-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.11.0.tgz
+63 silly lockFile dd49358a-body-parser-1-11-0 body-parser@1.11.0
+64 silly lockFile dd49358a-body-parser-1-11-0 body-parser@1.11.0
+65 silly lockFile 9f665704-body-parser body-parser@
+66 silly lockFile 9f665704-body-parser body-parser@
+67 error network getaddrinfo ENOTFOUND
+67 error network This is most likely not a problem with npm itself
+67 error network and is related to network connectivity.
+67 error network In most cases you are behind a proxy or have bad network settings.
+67 error network
+67 error network If you are behind a proxy, please make sure that the
+67 error network 'proxy' config is set properly.  See: 'npm help config'
+68 error System Darwin 14.0.0
+69 error command "node" "/usr/local/bin/npm" "install" "--save" "body-parser"
+70 error cwd /Applications/MAMP/htdocs/meadowlark
+71 error node -v v0.10.36
+72 error npm -v 1.4.28
+73 error syscall getaddrinfo
+74 error code ENOTFOUND
+75 error errno ENOTFOUND
+76 verbose exit [ 1, true ]
